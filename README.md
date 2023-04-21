@@ -1,12 +1,16 @@
-# flutter_project_template
-📖 Template for flutter projects using solid_lints, CI for tests and analysis.
+# Flutter Hello There
 
-- Uses latest stable flutter
-- Repo name as your project name
-- Organization from your profile email address or default
+This is a simple Flutter project that displays "Hello there" on the center of the screen. And when you tap anywhere on the screen, the background color changes.
 
-# Usage
-1. Press "Use this template" on the menu.
-2. Fill Github form with your new repo name and press "Create repository from template"
-3. Wait for it to be created and set up action is complete. In a couple of minutes, you'll see the flutter project created in your repo once Github Actions are complete.
-4. Clone and code.
+## Getting Started
+
+To run this project, follow these steps:
+
+1. Install Flutter on your machine.
+2. Clone this repository.
+3. Navigate to the project directory and run `flutter run` or `flutter run -d <deviceid>` to run it on specific device from list of devices.
+
+## How it Works
+
+The `my_app.dart` file contains the coded ligic for this project. It uses a `StatefulWidget` to manage the state of the background color. When you tap on the screen, it calls `setState` to update the background color with a random color.
+
